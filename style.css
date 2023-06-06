@@ -1,0 +1,440 @@
+/* Default styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body{
+  font-family: "Montserrat", sans-serif;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  height: 80vh;
+  width: 100%;
+}
+
+#heading {
+  text-align: center;
+  font-size: 1.5rem;
+  
+}
+
+.main-heading {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#budget-main {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 260px;
+  width: 300px;
+  background-color: rgb(172, 222, 241);
+  position: relative;
+  align-self: center;
+  top: 25%;
+  left: 180%;
+  padding: 20px;
+  border-radius: 2rem;
+}
+
+.budget {
+  background-color: #ebebeb;
+  border-radius: 10px;
+  height: 215px;
+  padding: 20px;
+  border-radius: 2rem;
+}
+
+.budget input {
+  text-align: center;
+}
+
+.budget h1 {
+  font-size: 2.0rem;
+  margin-bottom: 15px;
+}
+
+.budget input {
+  margin-bottom: 25px;
+  padding: 8px;
+  width: 90%;
+  font-weight: bold;
+  font-size: 1.0rem;
+  border-radius: 2rem;
+}
+
+.budget button {
+  font-weight: bold;
+  color: #fffbfb;
+  border: none;
+  cursor: pointer;
+  background: rgba(37, 37, 238, 0.712);
+  font-size: 1.2rem;
+  padding: 12px 15px;
+  border-radius: 2rem;
+}
+
+/* Budget Information */
+#star {
+  color: rgb(255, 0, 0);
+}
+
+.box input {
+  text-align: center;
+}
+
+#transac{
+  text-align: center;
+  color: rgb(255, 17, 0);
+  padding: 3px;
+}
+#amount-info {
+  background-color: rgb(127, 169, 194);
+  padding: 19px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  height: 490px;
+  width: 30%;
+  border-radius: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.amount-details {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  height: 395px;
+  border-radius: 2rem;
+}
+
+.amount-details h3 {
+  margin-bottom: 5px;
+  font-size: 1.0rem;
+}
+
+.amount-details input {
+  margin-bottom: 7px;
+  width: 100%;
+  padding: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: 0.5px solid black;
+  border-radius: 2rem;
+}
+
+#Category {
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 0.5px solid black;
+  border-radius: 2rem;
+}
+
+.submit-btn {
+  padding: 12px 30px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: rgba(39, 39, 185, 0.712);
+  font-size: 1.2rem;
+  position: absolute;
+  top: 375px;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 2rem;  
+}
+
+/* Display Expenses */
+#display-expenses {
+  height: 170px;
+  width: 60%;
+  position: absolute;
+  top: 660px;
+  background-color: rgb(78, 241, 201);
+  left: 48%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-radius: 2rem; 
+}
+
+.expenses {
+  background-color: #fff;
+  display: flex;
+  border-radius: 10px;
+  height: 130px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 2rem; 
+}
+
+.expenses h3 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+  text-align: center;
+  margin-right: 50px;
+  
+}
+
+.inputs {
+  padding: 22px;
+  font-size: 2rem;
+  height: 25%;
+  width: 80%;
+  border: 0.5px solid black;
+  border-radius: 2rem; 
+}
+
+/* Budget List */
+
+.header {
+  height: 600px;
+  width: 95%;
+  position: absolute;
+  top: 23px;
+  left: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  overflow: scroll;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow-x: hidden;
+  border-radius: 2rem; 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.main {
+  background-color: rgba(9, 105, 160, 0.479);
+  height: 645px;
+  top: 800px;
+  width: 60%;
+  margin-left: 18%;
+  position: absolute;
+  border-radius: 2rem; 
+}
+
+.last-box {
+  height: 90vh;
+}
+
+.header h3 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.headings {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.heading {
+  font-size: 1.4rem;
+  font-weight: 800;
+  flex-basis: 25%;
+  text-align: center;
+}
+
+.list {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 15px -9px,
+    rgba(0, 0, 0, 0.3) 0px 8px 10px;
+  margin-top: 20px;
+}
+
+.list .list-input-display {
+  height: 45px;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px 1px rgba(0.2, 0.2, 0.2, 0.2);
+  font-size: 1.7rem;
+  margin: 0 3px;
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  background-color: aliceblue;
+}
+
+footer {
+  margin-top: 70vh;
+  border-top: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding: 7px 0;
+}
+
+button:hover {
+  background: rgb(36, 36, 158);
+  transition: 0.6s;
+}
+
+.delete-button {
+  border-radius: 1px;
+  padding: 0 10px;
+  height: 45px;
+  width: 50px;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.delete-button:hover {
+  background: red;
+  color: #fff;
+}
+
+/* Responsive styles */
+
+@media (min-width: 350px) and (max-width: 767px) {
+  /* Adjust the styles for mobile devices */
+  .main-heading {
+    left: 10%;
+  }
+
+  #budget-main {
+    margin-top: 50px;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+  }
+  .budget input {
+    width: 94%;
+  }
+
+  #amount-info {
+    top: 55%;
+    left: 5%;
+    width: 90%;
+  }
+
+  #display-expenses {
+    top: 1000px;
+    left: 50%;
+    position: absolute;
+    width: 90%;
+  }
+
+  #display-expenses h3 {
+    font-size: 1.2rem;
+    margin-left: 18px;
+  }
+
+  #display-expenses input {
+    font-size: 1.1rem;
+    width: 75%;
+    margin-left: 15px;
+    padding: 10px;
+  }
+  .box {
+    width: 40%;
+  }
+  .main {
+    top: 1100px;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .main .heading {
+    font-size: 1rem;
+  }
+  .main input {
+    width: 60%;
+  }
+  footer {
+    margin-top: 490px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Adjust the styles for tablet devices */
+  .main-heading {
+    left: 30%;
+  }
+
+  #budget-main {
+    top: 10%;
+    left: 10%;
+    margin-top: 50px;
+    width: 40%;
+  }
+
+  #amount-info {
+    top: 10%;
+    left: 55%;
+    width: 40%;
+    margin-top: 50px;
+  }
+
+  #display-expenses {
+    top: 740px;
+    left: 50%;
+
+    position: absolute;
+    width: 90%;
+  }
+
+  .main {
+    top: 900px;
+    width: 90%;
+    right: 5%;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Adjust the styles for desktop devices */
+  .main-heading {
+    left: 40%;
+  }
+
+  #budget-main {
+    top: 13%;
+    margin-top: 50px;
+    left: 18%;
+    width: 25%;
+  }
+  .budget input {
+    width: 100%;
+  }
+
+  #amount-info {
+    top: 13%;
+    left: 45%;
+    width: 30%;
+    margin-top: 50px;
+  }
+
+  #display-expenses {
+    top: 680px;
+    position: absolute;
+    margin-top: 70px;
+    left: 46.5%;
+    width: 57%;
+  }
+
+  .main {
+    top: 800px;
+    margin-top: 60px;
+    width: 60%;
+    margin-left: 18%;
+  }
+}
